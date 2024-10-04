@@ -1,8 +1,13 @@
-# React + Vite
+# Movie-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это простое веб-приложение для для поиска, просмотра и оценки фильмов, созданное с использованием **React** и сборщика **Vite**. Проект размещён на **Vercel** для быстрой и надёжной доставки контента.
 
-Currently, two official plugins are available:
+## Технические детали
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **The Movie Database (TMDb) API**: Основной источник данных о фильмах, предоставляющий обширную информацию о кинопроизведениях..
+- **Ant Design (antd)**: Библиотека компонентов, предоставляющая стильные и функциональные элементы интерфейса..
+
+## Ссылка на приложение
+Работает только через VPN (В последнее время начал плохо работать API к гостевой сессии и оцененным фильмам)
+
+[Открыть TODO Приложение](https://movies-app-sigma-neon.vercel.app/)
