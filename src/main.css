@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.offline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Light gray background */
+}
