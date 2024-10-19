@@ -44,7 +44,7 @@ class MovieApi {
   async getMovies(page: number) {
     const api = "b95b8dc8fcb69d0f3bce2a2d9c53bb21";
     const res = await this.getResponse(
-      `https://api.themoviedb.org/3/search/movie?api_key=${api}&query=deadpool&page=${page}`
+      `https://api.themoviedb.org/3/search/movie?api_key=${api}&query=dead&page=${page}`
     );
     return res;
   }
